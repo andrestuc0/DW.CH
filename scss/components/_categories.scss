@@ -1,0 +1,19 @@
+.categorias {
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      height: 100%;
+  
+      li {
+        margin-left: 50px;
+        align-self: center;
+  
+        a {
+          font-size: small;
+          text-decoration: none;
+          color: $color-dark;
+        }
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+
+ .CrearCuenta {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-unit;
+    margin-left: 50px;
+    margin-top: 50px;
+  
+    button {
+      width: 500px;
+      background-color: $color-primary;
+      color: $color-white;
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: darken($color-primary, 10%);
+      }
+    }
+  
+    .mb-3 {
+      width: 500px;
+    }
+  }

@@ -1,0 +1,35 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-secondary;
+    height: 50px; // Reducido el tamaño
+    padding: 0 $spacing-unit;
+  
+    img {
+      height: 25px; // Ajuste de imagen
+      margin-right: $spacing-unit;
+    }
+  
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+  
+    .li {
+      margin-left: $spacing-unit;
+    }
+  
+    .li a {
+      color: $color-dark;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }

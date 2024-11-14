@@ -1,0 +1,65 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $grid-gap;
+    margin: $grid-margin;
+  
+    div {
+      background-color: $color-light;
+      padding: 20px;
+      text-align: center;
+      border-radius: $border-radius;
+  
+      button {
+        background-color: $color-primary;
+        color: $color-white;
+        padding: 10px 20px;
+        border-radius: $border-radius;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .novedades {
+    background-color: rgba(202, 201, 201, 0.664);
+    padding: 30px;
+    text-align: center;
+  
+    .nov-container {
+      display: flex;
+      justify-content: center;
+      gap: $grid-gap;
+      flex-wrap: wrap;
+  
+      .card-novedades {
+        background-color: $color-light;
+        border: 1px solid $color-dark;
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: $border-radius;
+  
+        img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+        }
+  
+        button {
+          background-color: $color-primary;
+          color: $color-white;
+          padding: 10px 20px;
+          border-radius: $border-radius;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    @media (max-width: 950px) {
+      .nov-container {
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+  }

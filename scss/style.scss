@@ -1,0 +1,19 @@
+@use 'themes/variables';
+@use 'themes/mixins';
+
+@import 'base/base';
+
+@import 'components/navigation';
+@import 'components/search';
+@import 'components/categories';
+@import 'components/promotions';
+@import 'components/banner';
+@import 'components/trending';
+@import 'components/grid';
+@import 'components/filters';
+@import 'components/footer';
+
+@import 'layouts/quienes-somos';
+@import 'layouts/iniciar-sesion';
+@import 'layouts/crear-cuenta';
+@import 'layouts/main-cat';

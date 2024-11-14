@@ -1,0 +1,40 @@
+.tendencias {
+    background-color: rgba(202, 201, 201, 0.664);
+    padding: 40px 20px;
+    text-align: center;
+  
+    h3 {
+      font-size: 24px;
+    }
+  
+    .card-articulo {
+      display: flex;
+      justify-content: space-around;
+  
+      div {
+        text-align: center;
+        img {
+          height: $card-img-height;
+          object-fit: cover;
+          border-radius: $border-radius;
+        }
+      }
+  
+      article {
+        div {
+          border: 1px solid $color-dark;
+          a {
+            color: $color-dark;
+            text-decoration: none;
+          }
+        }
+      }
+  
+      @media (max-width: 770px) {
+        flex-direction: column;
+        div {
+          margin: 10px;
+        }
+      }
+    }
+  }

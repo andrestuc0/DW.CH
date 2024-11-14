@@ -1,0 +1,23 @@
+.banner-principal {
+    background: url(../assets/img/Rectangle\ 5.png) center no-repeat;
+    background-size: cover;
+    height: $banner-height;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    button {
+      background-color: $color-primary;
+      color: $color-white;
+      padding: 12px 30px;
+      border-radius: $border-radius;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: darken($color-primary, 10%);
+      }
+    }
+  }
